@@ -22,7 +22,6 @@ WORKDIR /app
 COPY . /app
 
 # 暴露 5000 端口以便 Flask 应用能访问
-EXPOSE 4040
+EXPOSE 8080
 
 CMD ["python3", "monitor_alarm_statistics_table.py"]
-
